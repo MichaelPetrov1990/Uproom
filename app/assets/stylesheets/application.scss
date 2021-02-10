@@ -11,3 +11,21 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+// fonts from zip file(Am I doing this in the right place?)
+@font-face {
+  font-family: 'KeepCalm-Medium';
+  src: url('KeepCalm-Medium.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('Roboto-Medium.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('Roboto-Regular.ttf');
+}
