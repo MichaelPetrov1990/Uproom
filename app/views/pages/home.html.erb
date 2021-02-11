@@ -1,6 +1,61 @@
-<div class="container">
-  <div class="homenav">
-    <%= render 'shared/navbar_light' %>
+
+<div class="banner">
+<div class="navbar">
+  <div>
+    <img src="/assets/Logo White" alt="" class="logo">
   </div>
-  <%= image_tag 'Home/header-image' %>
+    <div>
+      <a href="#" class="nav-links">Home</a>
+      <a href="#" class="nav-links">Whats New</a>
+      <a href="#" class="nav-links">Services</a>
+      <a href="#" class="nav-links">Properties</a>
+    </div>
+    <div>
+      <i class="fas fa-search"></i>
+      <a href="#" class="button">Click Here</a>
+    </div>
+</div>
+  <div class="info">
+    <h1 class="welcome">Welcome to uproom</h1>
+    <p>We are an established property development agency,<br>for any queries don't hesiate to get in touch. </p>
+    <div class="bottom">
+    <a href="#" class="button-bottom">Click Here</a>
+    </div>
+  </div>
+</div>
+
+<div class="alternating">
+  <div class="stories">
+    <h1>Our New<br>Properties</h1>
+    <p class="lorem">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Lorem ipsum</p>
+    <a href="#" class="read-more">Read more</a>
+    </div>
+    <div>
+      <%= image_tag "Home/new-properties", class:"small-pic" %>
+    </div>
+  </div>
+</div>
+
+<div class="alternating">
+    <div>
+      <%= image_tag "Home/we're-moving", class:"small-pic" %>
+    </div>
+  <div class="stories">
+    <h1>Our New<br>Properties</h1>
+    <p class="lorem">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Lorem ipsum</p>
+    <a href="#" class="read-more">Read more</a>
+    </div>
+  </div>
+</div>
+
+<div class="alternating">
+  <div class="stories">
+    <h1>Our New<br>Properties</h1>
+    <p class="lorem">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Lorem ipsum</p>
+    <a href="#" class="read-more">Read more</a>
+    </div>
+    <div>
+      <%= image_tag 'Home/1-year', class:"small-pic" %>
+    </div>
+  </div>
 </div>
