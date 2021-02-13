@@ -12,7 +12,7 @@
     </div>
     <div>
       <i class="fas fa-search"></i>
-      <a href="#" class="button">Click Here</a>
+      <%= link_to 'Properties', properties_path,class:"button" %>
     </div>
 </div>
   <div class="info">
@@ -94,31 +94,26 @@
 
 <div class="our-properties">
 
-<h1>Services we provide</h1>
+<h1>Our properties</h1>
 <h4>Duis aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur</h4>
 
 </div>
 
 <div class="our-props-flex">
-  <div class="property-card">
+  
     <%= image_tag 'Home/leeds', class:"card-image" %>
-    <div class="card-info">
-      <h3>Leeds</h3>
-      <p>Category &nbsp; &nbsp; &nbsp; 24 Nov 201</p>
-    </div>
-  </div>
-    <div class="property-card">
     <%= image_tag 'Home/leeds', class:"card-image" %>
-    <div class="card-info">
-      <h3>Leeds</h3>
-      <p>Category &nbsp; &nbsp; &nbsp; 24 Nov 201</p>
-    </div>
-  </div>
-    <div class="property-card">
     <%= image_tag 'Home/leeds', class:"card-image" %>
-    <div class="card-info">
-      <h3>Leeds</h3>
-      <p>Category &nbsp; &nbsp; &nbsp; 24 Nov 201</p>
-    </div>
-  </div>
+    
 </div>
+<br>
+<br>
+<div class="subscribe">
+<h1>Sign Up to our Newsletter</h1>
+<div class="btn-div">
+<%= link_to 'Sign Up', "#", class:"sign-up-btn" %>
+</div>
+</div>
+
+
+
