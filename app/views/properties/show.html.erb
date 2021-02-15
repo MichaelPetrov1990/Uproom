@@ -1,8 +1,8 @@
-<h1>£<%= @property.price %></h1>
-<h2><%= @property.beds %></h2>
-<h2><%= @property.bathrooms %></h2>
-<h3><%= @property.address %></h3>
+<h1>Price: £<%= @property.price %></h1>
+<h2>Number of beds: <%= @property.beds %></h2>
+<h2>Number of bathrooms: <%= @property.bathrooms %></h2>
+<h3>Location: <%= @property.address %></h3>
 <h4><%= @property.description %></h4>
-<h4><%= @property.phone %></h4>
-<h4><%= @property.email %></h4>
+<h4>Phone number: <%= @property.phone %></h4>
+<h4>Email: <%= @property.email %></h4>
 <%= link_to 'Back', properties_path,class:"button" %>
